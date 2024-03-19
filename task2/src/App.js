@@ -1,7 +1,7 @@
 
 import AllRoutes from './AllRoutes/AllRoutes';
 import './App.css';
-import MainComponent from './Components/MainOne';
+import MainComponent from './Components/MainComponent/MainOne';
 
 function App() {
   return (

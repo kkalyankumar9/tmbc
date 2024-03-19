@@ -115,6 +115,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+
 }
 
 .card1 {
@@ -122,7 +123,9 @@
   max-width: 316.31px;
   height: auto;
   position: relative;
-  border-radius: 24.04px 0px 0px 0px;
+  border-radius: 24.04px;
+ 
+
 }
 
 .card1 img {
@@ -199,7 +202,7 @@
 }
 .shop1 {
   padding: 15.38px 23.07px;
-  border-radius: 19.23px 0px 0px 0px;
+  border-radius: 19.23px ;
   opacity: 1;
   color: #ffffff;
   font-family: Satoshi;

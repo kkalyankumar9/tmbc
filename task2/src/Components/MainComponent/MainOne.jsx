@@ -6,12 +6,13 @@ import { IoMdHome } from "react-icons/io";
 import { FiLogIn } from "react-icons/fi";
 import { TfiBarChart } from "react-icons/tfi";
 import { RiHomeGearFill } from "react-icons/ri";
-import InsideBox from "./InsideBox/InsideBox";
+import InsideBox from "../InsideBox/InsideBox";
 import { BsStars } from "react-icons/bs";
 import { FiPlusCircle } from "react-icons/fi";
 
 import { useNavigate } from "react-router-dom";
-import Products from "./ProductPage.jsx/Products";
+import Products from "../ProductPage/Products";
+
 const MainComponent = () => {
   const [inputValue, setInputValue] = useState("");
   const navigate = useNavigate();

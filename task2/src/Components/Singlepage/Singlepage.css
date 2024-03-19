@@ -1,0 +1,174 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+  }
+  
+  .sideBar {
+    width: 88px;
+    height: 920px;
+    border-radius: 8px;
+    border: 1px solid #ffffff33;
+    background-color: #141414;
+    padding: 10px;
+    text-align: left;
+
+  }
+  
+  .v1 {
+    color: rgb(169, 164, 164);
+  }
+  
+  .ic1 {
+    width: 39.16px;
+    height: 37.89px;
+    color: #ce5ed5;
+  }
+  
+  .ic2 {
+    width: 26.18px;
+    height: 26.18px;
+  }
+  
+  .ic2:hover {
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .mainBar {
+    width: 1293px;
+    height: 920px;
+    border-radius: 8px;
+    border: 1px solid #ffffff33;
+    background-color: #141414;
+  }
+  
+  .searchbar {
+    width: 50%;
+    height: 58px;
+    border-radius: 25px;
+    border: 1px solid #8d9191;
+    padding: 10px;
+    background-color: #141414;
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .searchbar > Input {
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+  }
+  
+  .sebut {
+    width: 102px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .seico {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .middlecon{
+    width: 873px;
+height: 922px;
+top: 20px;
+left: 129px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+text-align: center;
+margin: auto;
+background-color: #141414;
+border: 1px solid #ffffff33;
+border-radius: 5px;
+
+  }
+  .lastcon{
+    width: 397px;
+height: 922px;
+top: 20px;
+left: 1024px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  .sm1{
+    width: 113px;
+height: 333px;
+top: 169px;
+left: 68px;
+gap: 0px;
+border-radius: 9px 0px 0px 0px;
+opacity: 0px;
+padding: 2px;
+
+  }
+
+  .sim1 {
+    width: 113px;
+height: 104px;
+top: 169px;
+left: 68px;
+gap: 0px;
+border-radius: 9px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+padding: 5%;
+background-color: #141414;
+
+  }
+  .sim1:hover{
+    border: 2px solid #FAF9F6;
+  }
+  .singleimg{
+    width: 596px;
+height: 529px;
+top: 169px;
+left: 192px;
+gap: 0px;
+border-radius: 12px ;
+opacity: 0px;
+
+  }
+  .Headim{
+    width: 599px;
+height: 90px;
+top: 48px;
+left: 68px;
+gap: 0px;
+opacity: 0px;
+font-family: Satoshi;
+font-size: 36px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #FAF9F6;
+;
+  }
+  .lastcon{
+    width: 397px;
+    height: 922px;
+    top: 20px;
+    left: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #141414;
+    border: 1px solid #ffffff33;
+border-radius: 5px;
+
+  }
