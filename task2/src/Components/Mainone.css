@@ -55,6 +55,7 @@
   border-radius: 8px;
   border: 1px solid #ffffff33;
   background-color: #141414;
+  
 }
 
 .searchbar {
@@ -73,8 +74,10 @@
   border-radius: 25px;
   background-color: #141414;
   position: absolute;
-  top: 800px;
-  left: 200px;
+   top: 800px; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+
 }
 .searchbar > Input {
   border: none;

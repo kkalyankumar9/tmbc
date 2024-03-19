@@ -1,8 +1,5 @@
 .productCon {
-
-  padding:  3%;
-
- 
+  padding: 3%;
 }
 
 .ph1 {
@@ -18,262 +15,235 @@
   line-height: 40.5px;
   text-align: left;
   color: #ffffff;
-
-
-
-
 }
-.phed2{
-    padding: 15px;
+.phed2 {
+  padding: 15px;
 }
 .ph3 {
-   
-    width: Hug (145px)px;
-    height: Fixed (40px)px;
-    top: 111px;
-    left: 68px;
-    padding: 16px 24px 16px 24px;
-    gap: 10px;
-    border-radius: 20px ;
-    opacity: 0px;
-    
+  width: Hug (145px) px;
+  height: Fixed (40px) px;
+  top: 111px;
+  left: 68px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 20px;
+  opacity: 0px;
+
   background-color: #2c2c2c;
- 
 }
 .ph3:hover,
 .ph4:hover,
 .ph5:hover {
-  background-color: #FAF9F633;
+  background-color: #faf9f633;
 }
 
-.pt1{
-    width: 97px;
-height: 10px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-align-items: center;
-justify-content: center;
+.pt1 {
+  width: 97px;
+  height: 10px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    font-family: Satoshi;
-font-size: 14px;
-font-weight: 500;
-line-height: 29px;
-text-align: left;
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
 
   color: #faf9f6;
-
-
-
 }
-.ph4{
-    width: Hug (128px)px;
-height: Fixed (40px)px;
-top: 111px;
-left: 227px;
-padding: 16px 24px 16px 24px;
-gap: 10px;
-border-radius: 20px ;
-opacity: 0px;
+.ph4 {
+  width: Hug (128px) px;
+  height: Fixed (40px) px;
+  top: 111px;
+  left: 227px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 20px;
+  opacity: 0px;
 
-background-color: #2c2c2c;
+  background-color: #2c2c2c;
 }
-.pt2{
-    font-family: Satoshi;
-font-size: 14px;
-font-weight: 500;
-line-height: 29px;
-text-align: left;
-width: 80px;
-height: 10px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-align-items: center;
-justify-content: center;
+.pt2 {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  width: 80px;
+  height: 10px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-color: #faf9f6;
-
-
+  color: #faf9f6;
 }
 
-.ph5{
-    width: Hug (112px)px;
-height: Fixed (40px)px;
-top: 111px;
-left: 369px;
-padding: 16px 24px 16px 24px;
-gap: 10px;
-border-radius: 20px ;
-opacity: 0px;
-background-color: #2c2c2c;
-
+.ph5 {
+  width: Hug (112px) px;
+  height: Fixed (40px) px;
+  top: 111px;
+  left: 369px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: #2c2c2c;
 }
 
-.pt3{
-    font-family: Satoshi;
-font-size: 14px;
-font-weight: 500;
-line-height: 29px;
-text-align: left;
-width: 64px;
-height: 10px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #faf9f6;
-
-    
+.pt3 {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  width: 64px;
+  height: 10px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #faf9f6;
 }
-/* Define styles for the container of cards */
+
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width of each card */
-    gap: 20px; /* Adjust the gap between cards */
-  }
-  
-  /* Define styles for each card */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card1 {
+  width: 100%;
+  max-width: 316.31px;
+  height: auto;
+  position: relative;
+  border-radius: 24.04px 0px 0px 0px;
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card1 .text-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: white;
+}
+
+.card1 .ratings,
+.card1 .brand,
+.card1 .title,
+.card1 .price {
+  font-size: 14px;
+  text-align: left;
+}
+
+.card1 .title {
+  width: 245.16px;
+  height: 44px;
+  top: 530px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Satoshi;
+  font-size: 21.15px;
+  font-weight: 500;
+  line-height: 28.55px;
+  text-align: left;
+}
+.card1 .brand {
+  height: 8px;
+  top: 510px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Satoshi;
+  font-size: 11.54px;
+  font-weight: 500;
+  line-height: 15.58px;
+  text-align: left;
+}
+.card1 .ratings {
+  font-size: 12px;
+}
+.card1 .price {
+  display: flex;
+  justify-content: space-between;
+
+  height: 22px;
+  top: 610px;
+  left: 216.23px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Satoshi;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.5px;
+}
+
+@media screen and (max-width: 768px) {
   .card1 {
-    width: 100%; /* Set the width of each card to 100% */
-    max-width: 316.31px; /* Set a maximum width for each card */
-    height: auto; /* Allow the height to adjust based on content */
-    position: relative;
-    border-radius: 24.04px 0px 0px 0px;
+    max-width: 100%;
   }
-  
-  /* Define styles for the image inside each card */
-  .card1 img {
-    width: 100%;
-    height: auto; /* Allow the image to adjust its height while maintaining aspect ratio */
-    object-fit: cover;
-  }
-  
-  /* Define styles for the text container inside each card */
-  .card1 .text-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
-    color: white;
-  }
-  
-  /* Define styles for text elements inside the text container */
-  .card1 .ratings,
-  .card1 .brand,
-  .card1 .title,
-  .card1 .price {
-    font-size: 14px;
-    text-align: left; /* Adjust font sizes for smaller screens */
-  }
-  
-  /* Further adjust title font size for smaller screens */
-  .card1 .title {
-    width: 245.16px;
-    height: 44px;
-    top: 530px;
-    left: 216px;
-    gap: 0px;
-    opacity: 0px;
-    
-    font-family: Satoshi;
-font-size: 21.15px;
-font-weight: 500;
-line-height: 28.55px;
-text-align: left;
+}
+.shop1 {
+  padding: 15.38px 23.07px;
+  border-radius: 19.23px 0px 0px 0px;
+  opacity: 1;
+  color: #ffffff;
+  font-family: Satoshi;
+  font-size: 13.46px;
+  font-weight: 500;
+  line-height: 27.88px;
+  background-color: #faf9f633;
+}
+.showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+}
 
-  }
-  .card1 .brand {
-  
-height: 8px;
-top: 510px;
-left: 216px;
-gap: 0px;
-opacity: 0px;
-font-family: Satoshi;
-font-size: 11.54px;
-font-weight: 500;
-line-height: 15.58px;
-text-align: left;
+.sm1,
+.sm2 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  }
-  .card1 .ratings {
-    font-size: 12px;
-  }
-  .card1 .price  {
-    display: flex;
-    justify-content: space-between;
+.sm1:hover,
+.sm2:hover {
+  background-color: #eaeaea;
+}
 
+.sm1 {
+  background-color: #faf9f633;
+  color: #eaeaea;
+}
 
-  
-    height: 22px;
-    top: 610px;
-    left: 216.23px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Satoshi;
-font-size: 30px;
-font-weight: 700;
-line-height: 40.5px;
+.sm2 {
+  background-color: #faf9f633;
+  color: #eaeaea;
+}
 
-
-    
-  }
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .card1 {
-      max-width: 100%; /* Set maximum width to 100% for smaller screens */
-    }
-  }
-  .shop1 {
-    padding: 15.38px 23.07px;
-    border-radius: 19.23px 0px 0px 0px;
-    opacity: 1; /* Adjust opacity as needed */
-    color: #ffffff;
-    font-family: Satoshi;
-    font-size: 13.46px;
-    font-weight: 500;
-    line-height: 27.88px;
-    background-color: #FAF9F633; /* Ensure the background color provides good contrast with text */
-  }
-  .showmore {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 25px;
-  }
-  
-  .sm1, .sm2 {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .sm1:hover, .sm2:hover {
-    background-color: #EAEAEA; /* Change background color on hover */
-  }
-  
-  .sm1 {
-    background-color: #FAF9F633;
-    color: #EAEAEA; /* Text color */
-  }
-  
-  .sm2 {
-    background-color: #FAF9F633;
-    color: #EAEAEA; /* Text color */
-  }
-  
-  .sm2 .icon {
-    margin-right: 5px; /* Add some spacing between the icon and text */
-  }
-  
+.sm2 .icon {
+  margin-right: 5px;
+}
