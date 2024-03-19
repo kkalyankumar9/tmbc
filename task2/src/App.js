@@ -1,11 +1,12 @@
 
+import AllRoutes from './AllRoutes/AllRoutes';
 import './App.css';
 import MainComponent from './Components/MainOne';
 
 function App() {
   return (
     <div className="App">
-     <MainComponent/>
+     <AllRoutes/>
     </div>
   );
 }

@@ -28,7 +28,7 @@
   left: 24.57px;
   color: #ce5ed5;
   /* opacity: 0.24;
-    border: 3.28px solid; */
+      border: 3.28px solid; */
   margin-bottom: 35px;
 }
 
@@ -69,12 +69,12 @@
   align-items: center;
   border: 1px solid #8d9191;
   padding: 10px;
-  margin: auto;
+
   border-radius: 25px;
   background-color: #141414;
   position: absolute;
   top: 800px;
-  left: 400px;
+  left: 200px;
 }
 .searchbar > Input {
   border: none;

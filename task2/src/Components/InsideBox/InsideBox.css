@@ -88,3 +88,8 @@
   left: 900px;
   padding: 10px;
 }
+@media screen and (max-width: 768px) {
+  .insidebox1 {
+    font-size: 4vw; /* Adjusted font size for smaller screens */
+  }
+}
